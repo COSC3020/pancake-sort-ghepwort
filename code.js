@@ -22,9 +22,9 @@ function pancakeSort(arr) {
             }
         }
         // Flip the max to the front
-        arr = flip(arr, index)
+        arr = flip(arr, index);
         // Flip the max to the highest position not taken by the max
-        arr = flip(arr, arr.length - 1 - i)
+        arr = flip(arr, arr.length - 1 - i);
     }
     return arr;
 }
