@@ -30,8 +30,8 @@ number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
 ## Answers
-* There are $\frac{n^2}{2}$ number of compaisons
-* There are $2n$ number of flips
+* There are $\Theta(n^2)$ total number of comparisons
+* There are $\Theta(n^2)$ number of flips
 
 ## Sources
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
