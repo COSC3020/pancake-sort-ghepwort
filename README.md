@@ -30,8 +30,9 @@ number of comparisons of pancakes? What is it in terms of the number of flips?
 Add your answer to this markdown file.
 
 ## Answers
-* There are $\Theta(n^2)$ total number of comparisons
-* There are $\Theta(n^2)$ number of flips
+
+* Our total number of comparisons to find the largest number to pancake can be described by $n + (n-1) + (n-2) + ... + 2 + 1$ which as a series can be expressed as $\sum_{k=1}^{n}k=\frac{n(n+1)}{2}$ or asymptotically $\Theta(n^2)$
+* For every iteration, there are two flips performed (one to get it to the front and another to get it to it's correct spot). For n-iterations there are $2n$ flips performed or asymptotically $\Theta(n)$ number of flips.
 
 ## Sources
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
